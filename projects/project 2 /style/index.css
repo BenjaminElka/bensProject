@@ -1,0 +1,76 @@
+.backgroundcolor {
+    background-color: aquamarine;
+    
+
+}
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  #score {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #currentQuestion {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #options button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #options button:hover {
+    background-color: #2980b9;
+  }
+
+  #nextButton {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #nextButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;}
+
+    .bubbly-button{
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background-color: rgb(9, 236, 9);
+    }
+    

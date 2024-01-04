@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Movie</title>
+    <link rel="stylesheet" type="text/css" href="../../style/index.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script type="text/javascript" src="script.js" defer></script> -->
+    
+    <script type="text/javascript" src="./scripts/index.js" defer></script>
+</head>
+<body>
+    <a  href="../../index.html">
+        <button class = "bubbly-button">go to back to Gallery </button>
+      </a>
+    <div class = "wrapper">
+        
+        <div class = "logo">
+            <div class = "container">
+                <p>Movie<span>selecter.</span></p>
+            </div>
+        </div>
+       
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Search Movie:</h3>
+                <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class = "search-list" id = "search-list">
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+
+       
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                     
+                    <div class = "movie-poster">
+                        <img src = "./images/image1.jpg" alt = "movie poster">
+                    </div>
+                
+            </div>
+        </div>
+       
+    </div>
+
+
+</body>
+</html>
